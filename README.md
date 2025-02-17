@@ -4,6 +4,10 @@
 
 简体中文 | [English(暂时没做)](./README.md)
 
+---
+
+我们的 slogan 是： **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
+
 ## Star History
 
 ![GitHub Stars](https://img.shields.io/badge/stars-666.6k(XD)-yellow)
