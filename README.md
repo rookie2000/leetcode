@@ -5,6 +5,6 @@
 
 ## Star History
 
-![GitHub Stars](https://img.shields.io/badge/stars-666.6k-XD-yellow)
+![GitHub Stars](https://img.shields.io/badge/stars-666.6k(XD)-yellow)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=rookie2000/leetcode&type=Date)](https://star-history.com/#rookie2000/leetcode&Date)
