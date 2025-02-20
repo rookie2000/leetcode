@@ -10,7 +10,16 @@
 > [!NOTE]
 > 要坚持每天刷题哦！💪😊✊
 
-## :exclamation: 怎么刷 LeetCode？
+## Table of Contents
+
+1. [怎么刷LeetCode ](#1-怎么刷leetcode)
+2. [灵神的刷题思路](#2-灵神的刷题思路非常重要)
+3. [License](#3-license)
+4. [Contact](#4-contact)
+5. [Star History](#5-star-history)
+
+
+## 1. 怎么刷LeetCode 
 
 - [别人是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
 - [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
@@ -19,7 +28,7 @@
 
 ---
 
-## 灵神的刷题思路！！！（非常重要）
+## 2. 灵神的刷题思路（非常重要）
 透彻讲解算法，直击算法本质！欢迎关注 bilibili[@灵茶山艾府](https://space.bilibili.com/206214)
 
 - 🔥[基础算法精讲](https://www.bilibili.com/video/BV1AP41137w7/) 知其然不知其所以然？带你扫清算法学习的迷雾！
@@ -58,14 +67,14 @@
 如果你暂时没有达到要求，可以看我的 [基础算法精讲](https://www.bilibili.com/video/BV1AP41137w7/) 系列，**尽可能地完成课后习题，以及上面的分类题单**，有问题可以在视频下评论。
 
 
-## 7. License
+## 3. License
 This code repository is licensed under [the MIT License](LICENSE).
 
-## 9. Contact
+## 4. Contact
 If you have any questions, please raise an issue or contact us at [1422655775@qq.com](1422655775@qq.com).
 
 
-## Star History
+## 5. Star History
 
 ![GitHub Stars](https://img.shields.io/badge/stars-666.6k(XD)-yellow)
 
