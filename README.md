@@ -58,6 +58,11 @@
 如果你暂时没有达到要求，可以看我的 [基础算法精讲](https://www.bilibili.com/video/BV1AP41137w7/) 系列，**尽可能地完成课后习题，以及上面的分类题单**，有问题可以在视频下评论。
 
 
+## 7. License
+This code repository is licensed under [the MIT License](LICENSE).
+
+## 9. Contact
+If you have any questions, please raise an issue or contact us at [1422655775@qq.com](1422655775@qq.com).
 
 
 ## Star History
