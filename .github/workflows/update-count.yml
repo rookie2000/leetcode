@@ -1,0 +1,34 @@
+name: Auto Update File Count
+
+on:
+  push:
+    paths:
+      - 'Leetcode 热题 HOT 100/*.md'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Count .md files in "Leetcode 热题 HOT 100" (excluding README.md)
+        id: count
+        run: |
+          cd "Leetcode 热题 HOT 100"
+          count=$(find . -maxdepth 1 -name '*.md' ! -name 'README.md' | wc -l)
+          echo "count=$count" >> $GITHUB_OUTPUT
+
+      - name: Update README.md in subdirectory
+        run: |
+          cd "Leetcode 热题 HOT 100"
+          count=${{ steps.count.outputs.count }}
+          sed -i -E "s/(<!-- COUNT_START -->)[0-9]+(<!-- COUNT_END -->)/\1$count\2/" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add "Leetcode 热题 HOT 100/README.md"
+          git diff --cached --quiet || git commit -m "update file count"
+          git push
