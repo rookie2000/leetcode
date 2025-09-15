@@ -1,5 +1,5 @@
 ## 统计
-当前已完成题目数：<!-- COUNT_START -->88<!-- COUNT_END --> 道
+当前已完成题目数：<!-- COUNT_START -->89<!-- COUNT_END --> 道
 
 ## 题单地址
 https://leetcode.cn/studyplan/top-100-liked/
